@@ -1,4 +1,6 @@
-The treebank is licensed under the Creative Commons License Attribution-ShareAlike 4.0 International.
+The treebank annotations (anything else than word forms and their respective
+lemmas) are licensed under the Creative Commons License Attribution-Non
+Commercial-ShareAlike 4.0 International.
 
 The complete license text is available at:
-http://creativecommons.org/licenses/by-sa/4.0/legalcode
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
