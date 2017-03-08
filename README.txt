@@ -40,9 +40,9 @@ All the others have been regularized to match the UD2 scheme.
 Statistics
 ----------
 
-		sent.	tokens
+	sent.	tokens
 train	14759	363471	
-dev		1235	31818
+dev	1235	31818
 test	2541	61287
 
 
