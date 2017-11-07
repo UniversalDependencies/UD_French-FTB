@@ -17,7 +17,7 @@ Some notable versions have been used for research in  statistical parsing:
 * 2004: whole set of sentences used by Arun et al. 2005 , without any functional annotations ;
 * 2007: version with 12.531 sentences with functional annotations, used e.g. in Candito et al. 2010 ;
 * 2010: version with 15.922 sentences with functional annotations, used e.g. in Green et al., 2011 ;
-* 2013: version with 18.535 sentences with functional annotations, used for the [SPMRL 2013 shared tasks (Seddah et al. 2013)](http://dokufarm.phil.hhu.de/spmrl2014/doku.php).
+* 2013: version with 18.535 sentences with functional annotations, used for the [SPMRL 2013, 2014 shared tasks](http://dokufarm.phil.hhu.de/spmrl2014/doku.php).
 
 # Splitting
 The whole corpus contains 18,535 sentences and 456,576 tokens.
