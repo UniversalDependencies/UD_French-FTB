@@ -2,7 +2,7 @@
 The Universal Dependency version of the French Treebank (Abeillé et al., 2003), hereafter UD_French-FTB, is a treebank of sentences from the newspaper Le Monde, initially manually annotated with morphological information and phrase-structure and then converted to the Universal Dependencies annotation scheme. 
 
 # Introduction
-This release of the French Treebank (Abeille et al, 2003) UD 2.1 version is based on the FTB SPMRL release (Seddah et al, 2O13)
+This release of the French Treebank (Abeille et al, 2003) UD 2.1 version is based on the FTB SPMRL release (Seddah et al, 2013)
 whose tokenization has been changed to match the [UD 2.0 specifications](http://universaldependencies.org/u/overview/tokenization.html) . Its native depedency scheme was converted via the use of the [Sequoia treebank UD conversion rules](https://gitlab.inria.fr/grew/SSQ_UD) and a data-driven cross-treebank annotation transfer process (Seddah et al, 2017, forthcoming).
 
 An evaluation on a gold standard leads to 94.75% of LAS, 99.40% UAS on the test set, on par with other high quality UD treebanks such as UD_English.
@@ -73,7 +73,7 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
 
 **(Green et al, 2011)** Spence Green, Marie-Catherine de Marneffe, John Bauer J. and Christopher D. Manning. "2011. Multiword Expression Identification with Tree Substitution Grammars: A Parsing tour de force with French." In EMNLP 2011.
 
-**(Seddah et al, 2O13)** Djamé Seddah, Reut Tsarfaty, Sandra Kübler, Marie Candito, Jinho D. Choi, Richárd Farkas, Jennifer Foster, Iakes Goenaga, Koldo Gojenola Galletebeitia, Yoav Goldberg, Spence Green, Nizar Habash, Marco Kuhlmann, Wolfgang Maier, Yuval Marton, Joakim Nivre, Adam Przepiórkowski, Ryan Roth, Wolfgang Seeker, Yannick Versley, Veronika Vincze, Marcin Woliski,Alina Wróblewska,Eric Villemonte de la Clergerie. 2013. "Overview of the SPMRL 2013 Shared Task: A Cross-Framework Evaluation of Parsing Morphologically Rich Languages" Proceedings of the Fourth SPMRL Workshop, Seattle, USA
+**(Seddah et al, 2013)** Djamé Seddah, Reut Tsarfaty, Sandra Kübler, Marie Candito, Jinho D. Choi, Richárd Farkas, Jennifer Foster, Iakes Goenaga, Koldo Gojenola Galletebeitia, Yoav Goldberg, Spence Green, Nizar Habash, Marco Kuhlmann, Wolfgang Maier, Yuval Marton, Joakim Nivre, Adam Przepiórkowski, Ryan Roth, Wolfgang Seeker, Yannick Versley, Veronika Vincze, Marcin Woliski,Alina Wróblewska,Eric Villemonte de la Clergerie. 2013. "Overview of the SPMRL 2013 Shared Task: A Cross-Framework Evaluation of Parsing Morphologically Rich Languages" Proceedings of the Fourth SPMRL Workshop, Seattle, USA
 
 
 
