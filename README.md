@@ -2,8 +2,12 @@
 The Universal Dependency version of the French Treebank (Abeillé et al., 2003), hereafter UD_French-FTB, is a treebank of sentences from the newspaper Le Monde, initially manually annotated with morphological information and phrase-structure and then converted to the Universal Dependencies annotation scheme. 
 
 # Introduction
-This release of the French Treebank (Abeille et al, 2003) UD 2.1 version is based on the FTB SPMRL release (Seddah et al, 2013)
+UD_French-FTB 2.1 is an automatic conversion of the [French Treebank](http://ftb.linguist.univ-paris-diderot.fr/index.php?langue=en).
+The French Treebank constituency trees were first converted to dependency trees following (Candito et al., 2010), then the dependency trees were converted to UD scheme using B. Guillaume's [Sequoia treebank UD conversion rules](https://gitlab.inria.fr/grew/SSQ_UD). Finally a data-driven cross-treebank annotation transfer process (Seddah et al, 2017, forthcoming) was applied. 
+
+<!-- This release of the French Treebank (Abeille et al, 2003) UD 2.1 version is based on the FTB SPMRL release (Seddah et al, 2013)
 whose tokenization has been changed to match the [UD 2.0 specifications](http://universaldependencies.org/u/overview/tokenization.html) . Its native depedency scheme was converted via the use of the [Sequoia treebank UD conversion rules](https://gitlab.inria.fr/grew/SSQ_UD) and a data-driven cross-treebank annotation transfer process (Seddah et al, 2017, forthcoming).
+-->
 
 An evaluation on a gold standard leads to 94.75% of LAS, 99.40% UAS on the test set, on par with other high quality UD treebanks such as UD_English.
 
@@ -86,18 +90,18 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
 # Changelog
 
 * 2017-11-15 v2.1
-  * Automatic application of new decisions taken for harmonisation of several French Treebanks (causative, copules, auxiliaries)
+  <!--* Automatic application of new decisions taken for harmonisation of several French Treebanks (causative, copules, auxiliaries)-->
   - A few modifications were applied to augment consistency with some of the other UD_French treebanks (main UD_French and UD_French-Sequoia):
-  - The possessive determiners attach now with a "det" dependency instead of "nmod:poss"
-  - Causative constructions now represent "faire" as an auxiliary.
-  - The causer argument bears a nsubj:caus label
-  - The only valid auxiliaries are "être", "avoir" and "faire" (a dozen unfixed cases remain though)
-  - The only valid copula is "être"
-  - Moreover, when the copula introduces an infinitival clause or a full clause, then "être" is not treated as a cop, but is taken to be the root.
+    - The possessive determiners attach now with a "det" dependency instead of "nmod:poss"
+    - Causative constructions now represent "faire" as an auxiliary.
+    - The causer argument bears a nsubj:caus label
+    - The only valid auxiliaries are "être", "avoir" and "faire" (a dozen unfixed cases remain though)
+    - The only valid copula is "être"
+    - Moreover, when the copula introduces an infinitival clause or a full clause, then "être" is not treated as a cop, but is taken to be the root.
   		
-  		Examples:
-			- L'objectif est de calmer les esprits ==>  "est" is root, and "calmer" is its xcomp.
-            - Le plus étonnant est que la baisse accélère ==> "est" is root, and "accélère" is its ccomp
+  	Examples:
+	- L'objectif est de calmer les esprits ==>  "est" is root, and "calmer" is its xcomp.
+        - Le plus étonnant est que la baisse accélère ==> "est" is root, and "accélère" is its ccomp
       
 * 2017-03-08 v2.0
   * First release for inclusion as supplementary data for the ConLL 2017 Universal Dependency parsing shared task.
