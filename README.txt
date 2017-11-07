@@ -1,3 +1,5 @@
+(ongoing work to refactor the README according to the new template)
+
 UD 2.1 release of the French Treebank
 -------------------------------------
 
