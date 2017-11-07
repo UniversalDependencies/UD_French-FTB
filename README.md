@@ -81,13 +81,14 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
 
 * 2017-11-15 v2.1
   * Automatic application of new decisions taken for harmonisation of several French Treebanks (causative, copules, auxiliaries)
-  A few modifications were applied to augment consistency with some of the other UD_French treebanks (main UD_French and UD_French-Sequoia):
-  The possessive determiners attach now with a "det" dependency instead of "nmod:poss"
-  Causative constructions now represent "faire" as an auxiliary.
-  The causer argument bears a nsubj:caus label
-  The only valid auxiliaries are "être", "avoir" and "faire" (a dozen unfixed cases remain though)
-  The only valid copula is "être"
-  Moreover, when the copula introduces an infinitival clause or a full clause, then "être" is not treated as a cop, but is taken to be the root.
+  - A few modifications were applied to augment consistency with some of the other UD_French treebanks (main UD_French and UD_French-Sequoia):
+  - The possessive determiners attach now with a "det" dependency instead of "nmod:poss"
+  - Causative constructions now represent "faire" as an auxiliary.
+  - The causer argument bears a nsubj:caus label
+  - The only valid auxiliaries are "être", "avoir" and "faire" (a dozen unfixed cases remain though)
+  - The only valid copula is "être"
+  - Moreover, when the copula introduces an infinitival clause or a full clause, then "être" is not treated as a cop, but is taken to be the root.
+  
   Examples:
   
       L'objectif est de calmer les esprits ==>  "est" is root, and "calmer" is its xcomp.
