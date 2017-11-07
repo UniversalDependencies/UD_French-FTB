@@ -1,5 +1,5 @@
 # Summary
-The Universal Dependency version of the French Treebank (Abeillé et al., 2003), hereafter UD_French-FTB, is a treebank of sentences from the newspaper Le Monde, initially manually annotated with morphological information and phrase-structure and then converted to the Universal Dependencies annotation scheme. 
+The Universal Dependency version of the French Treebank (Abeill√© et al., 2003), hereafter UD_French-FTB, is a treebank of sentences from the newspaper Le Monde, initially manually annotated with morphological information and phrase-structure and then converted to the Universal Dependencies annotation scheme. 
 
 # Introduction
 This release of the French Treebank (Abeille et al, 2003) UD 2.1 version is based on the FTB SPMRL release (Seddah et al, 2O13)
@@ -56,20 +56,20 @@ Due to the FTB licensing restrictions (original data are under an LDC's license)
 # Acknowledgments
 
 contributors:
-Marie Candito, Bruno Guillaume, Teresa Lynn, Hector Martinez-Alonso, Benoit Sagot, Djamé Seddah, Eric Villemonte de la Clergerie
+Marie Candito, Bruno Guillaume, Teresa Lynn, Hector Martinez-Alonso, Benoit Sagot, Djam√© Seddah, Eric Villemonte de la Clergerie
 
 contact: 
-Djamé Seddah: djame.seddah@paris-sorbonne.fr  
+Djam√© Seddah: djame.seddah@paris-sorbonne.fr  
 Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
 
 # References
-**(Abeillé et al., 2003)**  Anne Abeillé, Lionel Clément, and Françàçs Toussenel. 2003. "Building a treebank for French", in A. Abeillé (ed) Treebanks, Kluwer, Dordrecht. 
-**(Arun et Keller. 2005)** Abhishek Arun and Frank Keller. 2005. Lexicalization in crosslinguistic probabilistic parsing: The case of French. In Proceedings of ACL, pages 306–313, Ann Arbor, MI.
+**(Abeill√© et al., 2003)**  Anne Abeill√©, Lionel Cl√©ment, and Fran√ß√†√ßs Toussenel. 2003. "Building a treebank for French", in A. Abeill√© (ed) Treebanks, Kluwer, Dordrecht. 
+**(Arun et Keller. 2005)** Abhishek Arun and Frank Keller. 2005. Lexicalization in crosslinguistic probabilistic parsing: The case of French. In Proceedings of ACL, pages 306‚Äì313, Ann Arbor, MI.
 **(Candito et al, 2010)** Marie Candito, Joakim Nivre, Pascal Denisand Enrique Henestroza Anguiano, 2010,  "Benchmarking of Statistical Dependency Parsers for French", Proceedings of COLING'2010, Beijing, China
 
 **(Green et al, 2011)** Spence Green, Marie-Catherine de Marneffe, John Bauer J. and Christopher D. Manning. "2011. Multiword Expression Identification with Tree Substitution Grammars: A Parsing tour de force with French." In EMNLP 2011.
 
-**(Seddah et al, 2O13)** Djamé Seddah, Reut Tsarfaty, Sandra Kübler, Marie Candito, Jinho D. Choi, Richárd Farkas, Jennifer Foster, Iakes Goenaga, Koldo Gojenola Galletebeitia, Yoav Goldberg, Spence Green, Nizar Habash, Marco Kuhlmann, Wolfgang Maier, Yuval Marton, Joakim Nivre, Adam Przepiórkowski, Ryan Roth, Wolfgang Seeker, Yannick Versley, Veronika Vincze, Marcin Woliski,Alina Wróblewska,Eric Villemonte de la Clergerie. 2013. "Overview of the SPMRL 2013 Shared Task: A Cross-Framework Evaluation of Parsing Morphologically Rich Languages" Proceedings of the Fourth SPMRL Workshop, Seattle, USA
+**(Seddah et al, 2O13)** Djam√© Seddah, Reut Tsarfaty, Sandra K√ºbler, Marie Candito, Jinho D. Choi, Rich√°rd Farkas, Jennifer Foster, Iakes Goenaga, Koldo Gojenola Galletebeitia, Yoav Goldberg, Spence Green, Nizar Habash, Marco Kuhlmann, Wolfgang Maier, Yuval Marton, Joakim Nivre, Adam Przepi√≥rkowski, Ryan Roth, Wolfgang Seeker, Yannick Versley, Veronika Vincze, Marcin Woliski,Alina Wr√≥blewska,Eric Villemonte de la Clergerie. 2013. "Overview of the SPMRL 2013 Shared Task: A Cross-Framework Evaluation of Parsing Morphologically Rich Languages" Proceedings of the Fourth SPMRL Workshop, Seattle, USA
 
 
 
@@ -81,12 +81,12 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
   The possessive determiners attach now with a "det" dependency instead of "nmod:poss"
   Causative constructions now represent "faire" as an auxiliary.
   The causer argument bears a nsubj:caus label
-  The only valid auxiliaries are "être", "avoir" and "faire" (a dozen unfixed cases remain though)
-  The only valid copula is "être"
-  Moreover, when the copula introduces an infinitival clause or a full clause, then "être" is not treated as a cop, but is taken to be the root.
+  The only valid auxiliaries are "√™tre", "avoir" and "faire" (a dozen unfixed cases remain though)
+  The only valid copula is "√™tre"
+  Moreover, when the copula introduces an infinitival clause or a full clause, then "√™tre" is not treated as a cop, but is taken to be the root.
   Examples:
       L'objectif est de calmer les esprits ==>  "est" is root, and "calmer" is its xcomp.
-      Le plus étonnant est que la baisse accélère ==> "est" is root, and "accélère" is its ccomp
+      Le plus √©tonnant est que la baisse acc√©l√®re ==> "est" is root, and "acc√©l√®re" is its ccomp
       
 * 2017-03-08 v2.0
   * First release for inclusion as supplementary data for the ConLL 2017 Universal Dependency parsing shared task.
@@ -102,7 +102,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Candito, Marie; Guillaume, Bruno ; Lynn, Teresa ; Martinez-Alonso, Hector ; Sagotm Benoit ; Seddahm Djamé;  Villemonte de la Clergerie, Eric
+Contributors: Candito, Marie; Guillaume, Bruno ; Lynn, Teresa ; Martinez-Alonso, Hector ; Sagotm Benoit ; Seddahm Djam√©;  Villemonte de la Clergerie, Eric
 Contributing: elsewhere
 Contact: djame.seddah@paris-sorbonne.fr marie.candito@linguist.univ-paris-diderot.fr
 ===============================================================================
