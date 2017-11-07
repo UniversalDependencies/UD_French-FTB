@@ -9,15 +9,16 @@ An evaluation on a gold standard leads to 94.75% of LAS, 99.40% UAS on the test 
 
 
 # Origin
-The French Treebank annotation project has a long history of intermediate releases, culminating with [the official 1.0 version](http://ftb.linguist.univ-paris-diderot.fr/index.php?langue=en), available since January 2017.
-
-For comparability reason with published parsing results, we derived the UD_French-FTB from the versions released for the SPMRL Shared Tasks (2013,2014).
+The French Treebank annotation project began in 1997 and has a long history of intermediate releases, culminating with [the official 1.0 version](http://ftb.linguist.univ-paris-diderot.fr/index.php?langue=en), available since January 2017.
+The official reference is (Abeillé et al. 2003).
 
 Some notable versions have been used for research in  statistical parsing:
 * 2004: whole set of sentences used by Arun et al. 2005 , without any functional annotations ;
 * 2007: version with 12.531 sentences with functional annotations, used e.g. in Candito et al. 2010 ;
 * 2010: version with 15.922 sentences with functional annotations, used e.g. in Green et al., 2011 ;
 * 2013: version with 18.535 sentences with functional annotations, used for the [SPMRL 2013, 2014 shared tasks](http://dokufarm.phil.hhu.de/spmrl2014/doku.php).
+
+To ease comparison with published parsing results, we derived the UD_French-FTB from the version released for the SPMRL Shared Tasks (2013, 2014).
 
 # Splitting
 The whole corpus contains 18,535 sentences and 456,576 tokens.
@@ -38,16 +39,21 @@ The original sentences of the corpus originate from the Le Monde newspaper (1990
 The construction of the **UD_French-FTB** is described in this paper (Seddah et al, 2017, to appear).
 
 # License
-The French treebank is distributed freely for research purposes, provided you fill and return the licence
-that can be found here : http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.php.
 
-Alternatively, the original FTB can be downloaded and an ID license number will be provided.
+The original French treebank is distributed freely for research purposes. An ID licence number
+can be obtained by filling the form at:
 http://ftb.linguist.univ-paris-diderot.fr/telecharger.php?&langue=en
 
-Pleae note that the UD annotation layers are released under the CC by-nc-sa 4.0 license.
+<!-- provided you fill and return the licence
+that can be found here : http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.php.
+-->
+
+<!--Alternatively, the original FTB can be downloaded and an ID license number will be provided.-->
+
+Please note that the UD annotation layers are released under the CC by-nc-sa 4.0 license.
 
 # How to get the full data
-Due to the FTB licensing restrictions (original data are under an LDC's license), the annotations are released without the lexical data. To merge the annotation with the corresponding FTB data, please follow the following steps:
+Due to the FTB licensing restrictions (original data are under an LDC's license), the UD_French-FTB is released without the lexical data. To merge the annotation with the corresponding FTB data, please follow the following steps:
 
 - Obtain a copy of the FTB (either via the link above or via the SPMRL Shared Task data set license http://dokufarm.phil.hhu.de/spmrl2014/lib/exe/fetch.php?media=french.pdf)
 - Send the ID license number or the signed license to djame.seddah@gmail.com 
