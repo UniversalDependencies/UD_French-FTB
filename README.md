@@ -59,7 +59,7 @@ Please note that the UD annotation layers are released under the CC by-nc-sa 4.0
 # How to get the full data
 Due to the FTB licensing restrictions (original data are under an LDC's license), the UD_French-FTB is released without the lexical data. To merge the annotation with the corresponding FTB data, please follow the following steps:
 
-- Obtain a copy of the FTB (either via the link above or via the SPMRL Shared Task data set license http://dokufarm.phil.hhu.de/spmrl2014/lib/exe/fetch.php?media=french.pdf)
+- Obtain a copy of the original FTB (either via the [application form](http://ftb.linguist.univ-paris-diderot.fr/telecharger.php?&langue=en) cited above or via the SPMRL Shared Task data set license http://dokufarm.phil.hhu.de/spmrl2014/lib/exe/fetch.php?media=french.pdf)
 - Send the ID license number or the signed license to djame.seddah@gmail.com 
 - a diff file will be then made available for download
 - uncompress and apply that patch inside the current UD_French-FTB directory (eg. patch -p1 < [patch file])
