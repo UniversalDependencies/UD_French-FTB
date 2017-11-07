@@ -88,12 +88,9 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
   - The only valid auxiliaries are "être", "avoir" and "faire" (a dozen unfixed cases remain though)
   - The only valid copula is "être"
   - Moreover, when the copula introduces an infinitival clause or a full clause, then "être" is not treated as a cop, but is taken to be the root.
-  
-  Examples:
-  
-      L'objectif est de calmer les esprits ==>  "est" is root, and "calmer" is its xcomp.
-      
-      Le plus étonnant est que la baisse accélère ==> "est" is root, and "accélère" is its ccomp
+  		Examples:
+			L'objectif est de calmer les esprits ==>  "est" is root, and "calmer" is its xcomp.
+            Le plus étonnant est que la baisse accélère ==> "est" is root, and "accélère" is its ccomp
       
 * 2017-03-08 v2.0
   * First release for inclusion as supplementary data for the ConLL 2017 Universal Dependency parsing shared task.
