@@ -1,9 +1,9 @@
 # Summary
-The Universal Dependency version of the French Treebank (Abeillé et al., 2003), hereafter UD_French-FTB, is a treebank of sentences from the newspaper Le Monde, initially manually annotated with morphological information and phrase-structure and then converted to the Universal Dependencies annotation scheme. 
+The Universal Dependency version of the French Treebank (Abeillé et al., 2003), hereafter UD_French-FTB, is a treebank of sentences from the newspaper Le Monde, initially manually annotated with morphological information and phrase-structure and then converted to the Universal Dependencies annotation scheme.
 
 # Introduction
 UD_French-FTB 2.1 is an automatic conversion of the [French Treebank](http://ftb.linguist.univ-paris-diderot.fr/index.php?langue=en).
-The French Treebank constituency trees were first converted to dependency trees following (Candito et al., 2010), then the dependency trees were converted to UD scheme using B. Guillaume's [Sequoia treebank UD conversion rules](https://gitlab.inria.fr/grew/SSQ_UD). Finally a data-driven cross-treebank annotation transfer process (Seddah et al, 2017, forthcoming) was applied. 
+The French Treebank constituency trees were first converted to dependency trees following (Candito et al., 2010), then the dependency trees were converted to UD scheme using B. Guillaume's [Sequoia treebank UD conversion rules](https://gitlab.inria.fr/grew/SSQ_UD). Finally a data-driven cross-treebank annotation transfer process (Seddah et al, 2017, forthcoming) was applied.
 
 <!-- This release of the French Treebank (Abeille et al, 2003) UD 2.1 version is based on the FTB SPMRL release (Seddah et al, 2013)
 whose tokenization has been changed to match the [UD 2.0 specifications](http://universaldependencies.org/u/overview/tokenization.html) . Its native depedency scheme was converted via the use of the [Sequoia treebank UD conversion rules](https://gitlab.inria.fr/grew/SSQ_UD) and a data-driven cross-treebank annotation transfer process (Seddah et al, 2017, forthcoming).
@@ -60,7 +60,7 @@ Please note that the UD annotation layers are released under the CC by-nc-sa 4.0
 Due to the FTB licensing restrictions (original data are under an LDC's license), the UD_French-FTB is released without the lexical data. To merge the annotation with the corresponding FTB data, please follow the following steps:
 
 - Obtain a copy of the original FTB (either via the [application form](http://ftb.linguist.univ-paris-diderot.fr/telecharger.php?&langue=en) cited above or via the SPMRL Shared Task data set license http://dokufarm.phil.hhu.de/spmrl2014/lib/exe/fetch.php?media=french.pdf)
-- Send the ID license number or the signed license to djame.seddah@gmail.com 
+- Send the ID license number or the signed license to djame.seddah@gmail.com
 - a diff file will be then made available for download
 - uncompress and apply that patch inside the current UD_French-FTB directory (eg. patch -p1 < [patch file])
 
@@ -70,12 +70,12 @@ Due to the FTB licensing restrictions (original data are under an LDC's license)
 contributors:
 Marie Candito, Bruno Guillaume, Teresa Lynn, Hector Martinez-Alonso, Benoit Sagot, Djamé Seddah, Eric Villemonte de la Clergerie
 
-contact: 
-Djamé Seddah: djame.seddah@paris-sorbonne.fr  
+contact:
+Djamé Seddah: djame.seddah@paris-sorbonne.fr
 Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
 
 # References
-**(Abeillé et al., 2003)**  Anne Abeillé, Lionel Clément, and Françàçs Toussenel. 2003. "Building a treebank for French", in A. Abeillé (ed) Treebanks, Kluwer, Dordrecht. 
+**(Abeillé et al., 2003)**  Anne Abeillé, Lionel Clément, and Françàçs Toussenel. 2003. "Building a treebank for French", in A. Abeillé (ed) Treebanks, Kluwer, Dordrecht.
 
 **(Arun et Keller. 2005)** Abhishek Arun and Frank Keller. 2005. Lexicalization in crosslinguistic probabilistic parsing: The case of French. In Proceedings of ACL, pages 306–313, Ann Arbor, MI.
 
@@ -98,11 +98,11 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
     - The only valid auxiliaries are "être", "avoir" and "faire" (a dozen unfixed cases remain though)
     - The only valid copula is "être"
     - Moreover, when the copula introduces an infinitival clause or a full clause, then "être" is not treated as a cop, but is taken to be the root.
-  		
+
   	Examples:
 	- L'objectif est de calmer les esprits ==>  "est" is root, and "calmer" is its xcomp.
         - Le plus étonnant est que la baisse accélère ==> "est" is root, and "accélère" is its ccomp
-      
+
 * 2017-03-08 v2.0
   * First release for inclusion as supplementary data for the ConLL 2017 Universal Dependency parsing shared task.
 
@@ -119,5 +119,5 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Candito, Marie; Guillaume, Bruno ; Lynn, Teresa ; Martinez-Alonso, Hector ; Sagotm Benoit ; Seddahm Djamé;  Villemonte de la Clergerie, Eric
 Contributing: elsewhere
-Contact: djame.seddah@paris-sorbonne.fr marie.candito@linguist.univ-paris-diderot.fr
+Contact: djame.seddah@paris-sorbonne.fr, marie.candito@linguist.univ-paris-diderot.fr
 ===============================================================================
