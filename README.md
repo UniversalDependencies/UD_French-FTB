@@ -117,7 +117,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Candito, Marie; Guillaume, Bruno; Lynn, Teresa; Martínez-Alonso, Héctor; Sagot, Benoît; Seddah, Djamé; Villemonte de la Clergerie, Eric
+Contributors: Candito, Marie; Guillaume, Bruno; Lynn, Teresa; Martínez Alonso, Héctor; Sagot, Benoît; Seddah, Djamé; Villemonte de la Clergerie, Eric
 Contributing: elsewhere
 Contact: djame.seddah@paris-sorbonne.fr, marie.candito@linguist.univ-paris-diderot.fr
 ===============================================================================
