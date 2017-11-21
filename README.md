@@ -77,9 +77,9 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
 # References
 **(Abeillé et al., 2003)**  Anne Abeillé, Lionel Clément, and Françàçs Toussenel. 2003. "Building a treebank for French", in A. Abeillé (ed) Treebanks, Kluwer, Dordrecht.
 
-**(Arun et Keller. 2005)** Abhishek Arun and Frank Keller. 2005. Lexicalization in crosslinguistic probabilistic parsing: The case of French. In Proceedings of ACL, pages 306–313, Ann Arbor, MI.
+**(Arun et Keller. 2005)** Abhishek Arun and Frank Keller. 2005. Lexicalization in crosslinguistic probabilistic parsing: The case of French. In Proceedings of ACL, pages 306–313, Ann Arbor, MI, USA.
 
-**(Candito et al, 2010)** Marie Candito, Joakim Nivre, Pascal Denisand Enrique Henestroza Anguiano, 2010,  "Benchmarking of Statistical Dependency Parsers for French", Proceedings of COLING'2010, Beijing, China
+**(Candito et al, 2010)** Marie Candito, Benoît Crabbé and Pascal Denis. 2010. Statistical French dependency parsing: treebank conversion and first results. In Proceedings of LREC'2010, La Valletta, Malta.
 
 **(Green et al, 2011)** Spence Green, Marie-Catherine de Marneffe, John Bauer J. and Christopher D. Manning. "2011. Multiword Expression Identification with Tree Substitution Grammars: A Parsing tour de force with French." In EMNLP 2011.
 
