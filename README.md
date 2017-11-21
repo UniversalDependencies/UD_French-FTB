@@ -54,7 +54,7 @@ that can be found here : http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.
 
 <!--Alternatively, the original FTB can be downloaded and an ID license number will be provided.-->
 
-Please note that the UD annotation layers are released under the CC by-nc-sa 4.0 license.
+Please note that the UD annotation layers are released under the LGPL-LR license.
 
 # How to get the full data
 Due to the FTB licensing restrictions (original data are under an LDC's license), the UD_French-FTB is released without the lexical data. To merge the annotation with the corresponding FTB data, please follow the following steps:
@@ -88,6 +88,8 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
 
 
 # Changelog
+
+* November 21, 2017: change of licence to enable compatibility with the FTB original license in term of potential commercial usage. Correction in list of references.
 
 * 2017-11-15 v2.1
   <!--* Automatic application of new decisions taken for harmonisation of several French Treebanks (causative, copules, auxiliaries)-->
