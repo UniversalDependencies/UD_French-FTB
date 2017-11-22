@@ -1,6 +1,4 @@
 The treebank annotations (anything else than word forms and their respective
-lemmas) are licensed under the Creative Commons License Attribution-Non
-Commercial-ShareAlike 4.0 International.
+lemmas) are licensed under Lesser General Public License For Linguistic Resources
 
-The complete license text is available at:
-https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+The complete license text is available at: https://spdx.org/licenses/LGPLLR
