@@ -2,10 +2,10 @@
 The Universal Dependency version of the French Treebank (Abeillé et al., 2003), hereafter UD_French-FTB, is a treebank of sentences from the newspaper Le Monde, initially manually annotated with morphological information and phrase-structure and then converted to the Universal Dependencies annotation scheme.
 
 # Introduction
-UD_French-FTB 2.1 is an automatic conversion of the [French Treebank](http://ftb.linguist.univ-paris-diderot.fr/index.php?langue=en).
+UD_French-FTB 2.3 is an automatic conversion of the [French Treebank](http://ftb.linguist.univ-paris-diderot.fr/index.php?langue=en).
 The French Treebank constituency trees were first converted to dependency trees following (Candito et al., 2010), then the dependency trees were converted to UD scheme using B. Guillaume's [Sequoia treebank UD conversion rules](https://gitlab.inria.fr/grew/SSQ_UD). Finally a data-driven cross-treebank annotation transfer process (Seddah et al, 2017, forthcoming) was applied.
 
-<!-- This release of the French Treebank (Abeille et al, 2003) UD 2.1 version is based on the FTB SPMRL release (Seddah et al, 2013)
+<!-- This release of the French Treebank (Abeille et al, 2003) UD 2.3 version is based on the FTB SPMRL release (Seddah et al, 2013)
 whose tokenization has been changed to match the [UD 2.0 specifications](http://universaldependencies.org/u/overview/tokenization.html) . Its native depedency scheme was converted via the use of the [Sequoia treebank UD conversion rules](https://gitlab.inria.fr/grew/SSQ_UD) and a data-driven cross-treebank annotation transfer process (Seddah et al, 2017, forthcoming).
 -->
 
@@ -85,9 +85,12 @@ Marie Candito: marie.candito@linguist.univ-paris-diderot.fr
 
 **(Seddah et al, 2013)** Djamé Seddah, Reut Tsarfaty, Sandra Kübler, Marie Candito, Jinho D. Choi, Richárd Farkas, Jennifer Foster, Iakes Goenaga, Koldo Gojenola Galletebeitia, Yoav Goldberg, Spence Green, Nizar Habash, Marco Kuhlmann, Wolfgang Maier, Yuval Marton, Joakim Nivre, Adam Przepiórkowski, Ryan Roth, Wolfgang Seeker, Yannick Versley, Veronika Vincze, Marcin Woliski,Alina Wróblewska,Eric Villemonte de la Clergerie. 2013. "Overview of the SPMRL 2013 Shared Task: A Cross-Framework Evaluation of Parsing Morphologically Rich Languages" Proceedings of the Fourth SPMRL Workshop, Seattle, USA
 
-
+**(Seddah et al, 2018) Djamé Seddah, Éric de La Clergerie, Benoît Sagot, Hector Martinez-Alonso, Marie Candito, "Cheating a Parser to Death: Data-driven Cross-Treebank Annotation Transfer" , Eleventh International Conference on Language Resources and Evaluation (LREC 2018), Miasaki, Japan
 
 # Changelog
+
+* October 31, 2018: The files were hand-corrected in order to pass the UD 2.2 validation script.
+Errors were mostly due to conjuncts or fixed tokens wrongly attached to their right-hand side.
 
 * November 21, 2017: change of licence to enable compatibility with the FTB original license in term of potential commercial usage. Correction in list of references.
 
