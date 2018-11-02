@@ -116,7 +116,7 @@ Errors were mostly due to conjuncts or fixed tokens wrongly attached to their ri
 Data available since: UD v2.0
 License: LGPL-LR
 Includes text: no
-Genre: newswire
+Genre: news
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: not available
