@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>18535</sentences><tokens>556064</tokens><words>573370</words><fused>17306</fused></total>
+    <train><sentences>14759</sentences><tokens>442228</tokens><words>455946</words><fused>13718</fused></train>
+    <dev><sentences>1235</sentences><tokens>38763</tokens><words>40066</words><fused>1303</fused></dev>
+    <test><sentences>2541</sentences><tokens>75073</tokens><words>77358</words><fused>2285</fused></test>
   </size>
   <lemmas unique="1575" /><!-- le, il, ce, ", à, un, en, mais, de, -, pour, dans, et, monsieur, si -->
   <forms unique="1849" /><!-- le, la, les, ", l', en, il, Mais, A, -, Pour, à, ce, dans, Cette -->
