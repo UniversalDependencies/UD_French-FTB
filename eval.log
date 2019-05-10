@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_French-FTB:
-commit 8b310b6e7cad5deeb918f52698c9f4006cb13e6f
-Merge: a8022ee 78d0ea1
+commit 0d74c7006bf1859e11847a029f38d92950c3a55d
+Merge: 33a7b4b 14195e6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 573370 of 573370 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.7030624651656.
