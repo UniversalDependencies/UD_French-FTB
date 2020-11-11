@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_French-FTB:
-commit 98f93120845f22732bfcf6b5dad654673f27d46c
-Merge: e38eeac 06f649d
+commit 9536f433643d9010f37ab024121f5c4b57175b1b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 10 17:58:31 2020 +0200
 Size: counted 573370 of 573370 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.7030624651656.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -35,8 +35,8 @@ validate.py --lang fr --max-err=10 UD_French-FTB/fr_ftb-ud-dev.conllu
 [Line 423 Sent flmf7ab2ep-777 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 491 Sent flmf7ab2ep-778 Node 25]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 ...suppressing further errors regarding Syntax
-Syntax errors: 933
-*** FAILED *** with 933 errors
+Syntax errors: 917
+*** FAILED *** with 917 errors
 Exit code: 1
 validate.py --lang fr --max-err=10 UD_French-FTB/fr_ftb-ud-test.conllu
 [Line 42 Sent flmf7ad1co-290 Node 37]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
@@ -47,10 +47,10 @@ validate.py --lang fr --max-err=10 UD_French-FTB/fr_ftb-ud-test.conllu
 [Line 116 Sent flmf7ad1co-291 Node 42]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 129 Sent flmf7ad1co-291 Node 55]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 136 Sent flmf7ad1co-291 Node 62]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 474 Sent flmf7ad1co-302 Node 38]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [34, 35, 36]
+[Line 474 Sent flmf7ad1co-302 Node 38]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [34, 35, 36, 37]
 ...suppressing further errors regarding Syntax
-Syntax errors: 2136
-*** FAILED *** with 2136 errors
+Syntax errors: 2118
+*** FAILED *** with 2118 errors
 Exit code: 1
 validate.py --lang fr --max-err=10 UD_French-FTB/fr_ftb-ud-train.conllu
 [Line 33 Sent flmf7ag1exp-15 Node 29]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
@@ -60,11 +60,11 @@ validate.py --lang fr --max-err=10 UD_French-FTB/fr_ftb-ud-train.conllu
 [Line 481 Sent flmf7ag1exp-24 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 524 Sent flmf7ag1exp-25 Node 10]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 549 Sent flmf7ag1exp-26 Node 18]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'fixed'
-[Line 637 Sent flmf7ag1exp-28 Node 23]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [14]
-[Line 637 Sent flmf7ag1exp-28 Node 23]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+[Line 637 Sent flmf7ag1exp-28 Node 23]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+[Line 683 Sent flmf7ag1exp-29 Node 6]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'fixed'
 ...suppressing further errors regarding Syntax
-Syntax errors: 11265
-*** FAILED *** with 11265 errors
+Syntax errors: 11124
+*** FAILED *** with 11124 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
