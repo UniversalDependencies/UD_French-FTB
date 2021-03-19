@@ -37548,7 +37548,7 @@
 30	_	_	ADV	_	_	8	acl:relcl	_	SpaceAfter=No
 31	_	_	PUNCT	_	_	30	fixed	_	SpaceAfter=No
 32	_	_	NOUN	_	Gender=Fem|Number=Sing	30	fixed	_	_
-33	_	_	PUNCT	_	Gender=Fem|Number=Sing	30	amod	_	_
+33	_	_	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 34-35	_	_	_	_	_	_	_	_	_
 34	_	_	ADP	_	_	36	case	_	_
 35	_	_	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
