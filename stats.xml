@@ -20,14 +20,14 @@
     <tag name="ADV">23598</tag><!-- _, ainsi, quant, enfin, alors, plus, cependant, certes, toutefois, pourtant -->
     <tag name="AUX">12869</tag><!-- _, avoir, pouvoir, être, aller, vouloir, devoir -->
     <tag name="CCONJ">11973</tag><!-- _, mais, et, or, car, ou, puis, ni, soit, sinon -->
-    <tag name="DET">85493</tag><!-- _, le, un, ce, son, plusieurs, aucun, quelque, certain, chaque -->
+    <tag name="DET">85494</tag><!-- _, le, un, ce, son, plusieurs, aucun, quelque, certain, chaque -->
     <tag name="INTJ">57</tag><!-- _, bref, las, oui, Ah, adieu, hélas, Bigre, Bonjour, Bravo -->
     <tag name="NOUN">117087</tag><!-- _, monsieur, DOC, résultat, face, fin, article, vendredi, grâce, côté -->
     <tag name="NUM">17797</tag><!-- _, deux, trois, 1992, quatre, cinq, dix, sept, vingt, huit -->
     <tag name="PART">239</tag><!-- _ -->
     <tag name="PRON">22949</tag><!-- _, il, ce, celui, cela, le/lui, tout, certain, qui, que -->
     <tag name="PROPN">21860</tag><!-- _, Paris, Michel, France, FO, Jean, air, EDF, FRANCFORT, Hachette -->
-    <tag name="PUNCT">75128</tag><!-- _, ", -, (, […], ), ., ,, :, [ -->
+    <tag name="PUNCT">75127</tag><!-- _, ", -, (, […], ), ., ,, :, [ -->
     <tag name="SCONJ">5257</tag><!-- _, si, comme, que, quand, lorsque, parce, sinon, pourquoi, puisque -->
     <tag name="VERB">47713</tag><!-- _, rester, être, pouvoir, voilà, falloir, interroger, réunir, exprimer, mettre -->
     <tag name="X">2192</tag><!-- _, NEW, New, British, Grand, In, A, Altus, BUENOS, Body -->
@@ -35,15 +35,15 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="31">
     <feat name="Definite" value="Def" upos="DET">62616</feat><!-- _, le, la, les, l' -->
-    <feat name="Definite" value="Ind" upos="ADJ,DET,PRON">13593</feat><!-- _, un, une, des, D', De, Plusieurs, Quelques, Chaque, Certains -->
-    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,VERB">118196</feat><!-- _, la, L', les, Cette, une, Elle, ces, des, elles -->
+    <feat name="Definite" value="Ind" upos="DET,PRON">13593</feat><!-- _, un, une, des, D', De, Plusieurs, Quelques, Chaque, Certains -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">118196</feat><!-- _, la, L', les, Cette, une, Elle, ces, des, elles -->
     <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">175771</feat><!-- _, le, les, il, l', ce, un, c', On, M. -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">1507</feat><!-- _, Serait, Pourrait, Serions -->
     <feat name="Mood" value="Imp" upos="VERB">114</feat><!-- _, Notons, Ajoutons, Supposons, Ajoutez, Allongez, Attendons, Changez, Citons, Commençons -->
     <feat name="Mood" value="Ind" upos="AUX,VERB,X">28646</feat><!-- _, Reste, Peut, Est, Voilà, faut, Sont, Avez, Suivent, Entrent -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">617</feat><!-- _, Fût -->
     <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">97406</feat><!-- _, les, ces, ils, des, nous, elles, Deux, Certains, Ceux -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,VERB">237957</feat><!-- _, le, la, l', il, ce, Cette, un, une, c' -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">237957</feat><!-- _, le, la, l', il, ce, Cette, un, une, c' -->
     <feat name="NumType" value="Card" upos="ADJ,NOUN,NUM,PRON">20126</feat><!-- _, Deux, Trois, Quatre, 1992, Cinq, Dix, Sept, Vingt, Huit -->
     <feat name="NumType" value="Ord" upos="ADJ,NOUN">1440</feat><!-- _, Premier, Deuxième, Première, 1er, Second, Seconde, Troisième, 40ème, Dixième -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">1934</feat><!-- _, nous, Je, J', Notre, Nos, Notons, Ajoutons, Supposons, Ma -->
@@ -51,7 +51,7 @@
     <feat name="Person" value="3" upos="ADP,AUX,DET,PRON,VERB,X">55667</feat><!-- _, il, c', On, Elle, ils, ce, Cela, Son, elles -->
     <feat name="Polarity" value="Neg" upos="ADV">4896</feat><!-- _, Ne, N', Jamais -->
     <feat name="Poss" value="Yes" upos="ADJ,DET,NOUN,PRON">4926</feat><!-- _, Son, Leur, Ses, Sa, Notre, Nos, Ma, Leurs -->
-    <feat name="PronType" value="Art" upos="ADJ,DET,PRON">76209</feat><!-- _, le, la, les, l', un, une, des, D', De -->
+    <feat name="PronType" value="Art" upos="DET,PRON">76209</feat><!-- _, le, la, les, l', un, une, des, D', De -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4687</feat><!-- _, Cette, Ce, ces, Cela, Cet, Ceux, Celui, Celle, Celles -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">349</feat><!-- _, Comment, qui, Pourquoi, Que, Où, Qu', Quand, Quoi, Quelle -->
     <feat name="PronType" value="Prs" upos="PRON">517</feat><!-- _, Lui, Elle, Moi, Personne -->
