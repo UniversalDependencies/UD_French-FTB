@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_French-FTB:
-commit 93565e964024c66b89e54aef742efbbb9a5913f6
+commit 09bc867d4ae2ddbbf02a5366a95cbf75ec70b4ed
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:11:18 2021 +0200
+Date:   Wed Nov 3 16:14:27 2021 +0100
 Size: counted 573370 of 573370 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.7030624651656.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -55,8 +55,8 @@ validate.py --lang fr --max-err=10 UD_French-FTB/fr_ftb-ud-test.conllu
 [Line 4660 Sent flmf7ad1co-415 Node 1]: [L5 Morpho aux-lemma] 'pouvoir' is not an auxiliary verb in language [fr]
 [Line 17940 Sent flmf7aj2-799 Node 1]: [L5 Morpho aux-lemma] 'pouvoir' is not an auxiliary verb in language [fr]
 Morpho errors: 3
-Syntax errors: 2117
-*** FAILED *** with 2120 errors
+Syntax errors: 2116
+*** FAILED *** with 2119 errors
 Exit code: 1
 validate.py --lang fr --max-err=10 UD_French-FTB/fr_ftb-ud-train.conllu
 [Line 33 Sent flmf7ag1exp-15 Node 29]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
@@ -80,8 +80,8 @@ validate.py --lang fr --max-err=10 UD_French-FTB/fr_ftb-ud-train.conllu
 [Line 405869 Sent flmf3_01000_01499ep-1179 Node 1]: [L5 Morpho aux-lemma] 'pouvoir' is not an auxiliary verb in language [fr]
 ...suppressing further errors regarding Morpho
 Morpho errors: 13
-Syntax errors: 11124
-*** FAILED *** with 11137 errors
+Syntax errors: 11113
+*** FAILED *** with 11126 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
