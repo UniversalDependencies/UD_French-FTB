@@ -48,7 +48,7 @@
     <feat name="NumType" value="Ord" upos="ADJ,NOUN">1440</feat><!-- _, Premier, Deuxième, Première, 1er, Second, Seconde, Troisième, 40ème, Dixième -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">1934</feat><!-- _, nous, Je, J', Notre, Nos, Notons, Ajoutons, Supposons, Ma -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">271</feat><!-- _, Vous, Avez, Ajoutez, Allongez, Changez, Courez, Croissez, Etes, Prenez -->
-    <feat name="Person" value="3" upos="ADP,AUX,DET,PRON,VERB,X">55667</feat><!-- _, il, c', On, Elle, ils, ce, Cela, Son, elles -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB,X">55578</feat><!-- _, il, c', On, Elle, ils, ce, Cela, Son, elles -->
     <feat name="Polarity" value="Neg" upos="ADV">4896</feat><!-- _, Ne, N', Jamais -->
     <feat name="Poss" value="Yes" upos="ADJ,DET,NOUN,PRON">4926</feat><!-- _, Son, Leur, Ses, Sa, Notre, Nos, Ma, Leurs -->
     <feat name="PronType" value="Art" upos="DET,PRON">76209</feat><!-- _, le, la, les, l', un, une, des, D', De -->
